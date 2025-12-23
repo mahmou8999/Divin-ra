@@ -1,0 +1,39 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "jewelry",
+      "karat": "21K",
+      "price": "5500 EGP",
+      "image": "https://i.pinimg.com/736x/e2/34/8b/e2348b09ceb55d4bc30145c825205ded.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Gold Ring",
+      "karat": "18K",
+      "price": "5500 EGP",
+      "image": "https://i.pinimg.com/1200x/b8/df/57/b8df5754df888cce79d0a3bdf10a0f2e.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Gold Ring",
+      "karat": "24K",
+      "price": "5500 EGP",
+      "image": "https://i.pinimg.com/1200x/21/e2/a2/21e2a215efb19f0e6c5bbd14f6bb21ac.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Gold Ring",
+      "karat": "21K",
+      "price": "5500 EGP",
+      "image": "https://i.pinimg.com/1200x/a2/47/49/a247490cbf7d200ed094c6e77792cb55.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Gold Ring",
+      "karat": "18K",
+      "price": "5500 EGP",
+      "image": "https://i.pinimg.com/736x/7c/d2/ca/7cd2ca86688ef63ef15edd631bbabec0.jpg"
+    }
+  ]
+}

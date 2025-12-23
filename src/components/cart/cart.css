@@ -1,0 +1,43 @@
+#print-area {
+  padding: 20px;
+  border: 2px solid goldenrod;
+  border-radius: 12px;
+  background: #000000;
+  color: #ffffff;
+  font-family: "Arial", sans-serif;
+}
+
+.store-name {
+  font-size: 32px;
+  color: goldenrod;
+  border-bottom: 2px dashed goldenrod;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+@media print {
+  body * {
+    visibility: hidden;
+  }
+
+  #print-area,
+  #print-area * {
+    visibility: visible;
+  }
+
+  #print-area {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+
+  .d-print-none {
+    display: none !important;
+  }
+}
+#print-area .print-card {
+  page-break-inside: avoid;
+  break-inside: avoid;
+  transform: scale(0.95);
+}
