@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./register.css";
-import { Navigate, useNavigate } from "react-router";
+import { useNavigate } from "react-router";
 
 function Register() {
   const [formData, setFormData] = useState({
@@ -176,3 +176,4 @@ function Register() {
 }
 
 export default Register;
+
