@@ -2,7 +2,6 @@ import React, { useEffect, useRef, useState } from "react";
 import "./Section.css";
 import video from "../../img&video/Pin on amj videos.mp4";
 import video2 from "../../img&video/Pin videos.mp4";
-import Swipers from "../swper/Swipers";
 import Gold from "../golds/Gold";
 
 const useCountUp = (end, duration, startCounting) => {
@@ -193,3 +192,4 @@ function Section2() {
 }
 
 export default Section2;
+
